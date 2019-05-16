@@ -1,0 +1,54 @@
+@import '../../../../layout/function.scss';
+
+.send-invoice{
+    background: rgba(249, 90, 97, 0.1);
+    border-radius: 50px;
+    text-align: center;
+    p{
+        color: #F95A61;
+        padding: rem(20px) rem(10px);
+        font-size: rem(12px);
+    }
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pay-type-btn-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: rem(15px);
+    .choose-pay-type{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border: none;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: rem(15px) rem(47px);
+        // height: 45px;
+        // width: 90px;
+        img{
+            width: auto;
+            height: rem(28px);
+        }
+    }
+}
+
+.pay-now-btn-api-card{
+    border: none;
+    margin: 50px 0;
+    background: #F95A61;
+    box-shadow: 0px 4px 20px rgba(249, 90, 97, 0.3);
+    border-radius: 50px;
+    color: #fff;
+    padding: rem(12px) rem(35px);
+    outline: none !important;
+}

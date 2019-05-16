@@ -1,0 +1,46 @@
+@import '../../../../layout/function.scss';
+
+.select-plan-container{
+    margin-top: rem(90px);
+    text-align: center;
+    .col-12{
+        margin: rem(100px) 0;
+    }
+    p{
+        color: #0C0D2C;
+        font-size: rem(16px);
+        font-weight: bold;
+    }
+    button{
+        background: transparent;
+        color: #F95A61;
+        border: 1px dashed #F95A61;
+        border-radius: 20px;
+        outline: none !important;
+        font-size: rem(14px);
+    }
+    .not-selected-plan{
+        padding: rem(25px);
+        transition: 0.6s;
+    }
+    .active-plan-btn-api{
+        padding: rem(70px);
+        transition: 0.6s;
+    }
+    .active-plan-btn-custome{
+        padding: rem(70px) rem(40px);
+        transition: 0.6s;
+    }
+}
+
+.plan-labels{
+    color: #8F909E;
+    font-size: rem(11px);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#from-to-time-plan{
+     color: #0C0D2C;
+     font-size: rem(14px);
+}
